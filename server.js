@@ -6,10 +6,10 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.use(express.static('./public'));
+app.use(express.static('./'));
 
 app.get('/', (request, response) => {
-  response.sendFile('index.html', {root: './public'});
+  response.sendFile('index.html', {root: './'});
 });
 
 app.use('*', (request, response) => response.send('Sorry, that route does not exist.'))
