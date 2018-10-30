@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Alan-mag/js-pract-port/issues"
   },
-  "homepage": "https://github.com/Alan-mag/js-pract-port#readme"
+  "homepage": "https://github.com/Alan-mag/js-pract-port#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
